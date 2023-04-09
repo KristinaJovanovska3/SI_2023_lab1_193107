@@ -1,0 +1,30 @@
+1.Инсталирав Git на компјутер
+2.Го променив името на мојата главна гранка во master
+3.Креирав репозиториум со име SI_2023_lab1_193107 и го направив приватен за почеток
+4.Со командата mkdir креирав директориум на мојот компјутер со име SI_2023_lab1_193107
+5.Со командата git init го иницијализирав Git во него
+6.Мојто локален репозиториум го поврзав со оддалечениот преку командата git remote add origin  https://github.com/KristinaJovanovska3/SI_2023_lab1_193107
+7.Со командата echo>>README.md креирав README фајл и откако ја променив неговата содржина и го зачував ја применив командата 'git add . ' и потоа направив комит со 'git commit -m "Initial commit" 
+8.На ист начин креирав и фајл SILab1.java и откако ја променив и неговата содржина , го зачував и ги применив командите 'git add . ' и 'git commit -m "Add java class".
+9.За да ги синхронизирам сите гранки со remote репозиториумот ја применив командата git push --all
+10.Од master разгранив три гранки со командата git branch bug1 / git brunch bug2 / git branch bug3
+11.Со git checkout bug1 се префрлив од master на гранката bug1
+10-15 чекор.ја поправив грешката во for циклусот и со git add . ' и 'git commit -m "Fix wrong loop for reading" потоа го повторив истот за bug2 и bug3 но со различна порака во commit-от
+16. Се синхронизирав со оддалечениот репозиториум со командата git push --all
+17.git checkout master
+18.git merge bug1 nema konflikt
+19.git push --all
+20 git merge bug2 ima konflikt 
+error: Your local changes to the following files would be overwritten by merge:
+  SILab1.java
+21. git checkout bug3
+22.git rebase master
+23.git checkout maste
+24.git merge bug3
+25.git push --all --force
+26.echo>>log.txt
+git log
+27.git add.
+git commit -m "Final commit"
+28.git push --all
+

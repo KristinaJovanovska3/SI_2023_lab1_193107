@@ -1,0 +1,24 @@
+$ git log
+commit deeeed0bb25a118ecfaddd185ba6179d8169017e (HEAD -> master, origin/master, origin/bug3, bug3)
+Author: Jovanovska <kjovanovska27@gmail.com>
+Date:   Sun Apr 9 19:47:57 2023 +0200
+
+    Fix method sumEvenNumbers
+
+commit 101b5678419542e103cb4e63b4c4069ed449dadf
+Merge: e4e0c6d 3f7c302
+Author: Kristina Jovanovska <80540684+KristinaJovanovska3@users.noreply.github.com>
+Date:   Sun Apr 9 20:02:28 2023 +0200
+
+    Merge pull request #1 from KristinaJovanovska3/bug2
+
+    Fix wrong condition in filterOddNumbers
+
+commit 3f7c3022a42b406fbf9b48487826ec8a7995805b (origin/bug2, bug2)
+Author: Jovanovska <kjovanovska27@gmail.com>
+Date:   Sun Apr 9 19:46:35 2023 +0200
+
+    Fix wrong condition in filterOddNumbers
+
+:
+
